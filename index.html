@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <style>
+        td>img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+        }
+    </style>
+    <title>Compare Fusion</title>
+</head>
+
+<body class="interface">
+
+    <h1 class="display-5 my-5 text-center">Compare Fusion</h1>
+    <h2 class="display-6 my-5 text-center">Apple iphone Comparison  </h2>
+    <div class="container">
+        <div class="col-md-9 mx-auto">
+            <table class="table">
+                <tr class="bg-light">
+                    <th>Select Product</th>
+                    <th width="300px">
+                        <select class="form-control" id="select1" onchange="item1(this.value)">
+                            <option value="0">-- Select Anyone --</option>
+                        </select>
+                    </th>
+                    <th width="300px">
+                        <select class="form-control" id="select2" onchange="item2(this.value)">
+                            <option value="0">-- Select Anyone --</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Product Image</th>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
+                            id="img1" alt=" ">
+                    </td>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
+                            id="img2" alt=" ">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Product Price</th>
+                    <td id="price1">N/A</td>
+                    <td id="price2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Network</th>
+                    <td id="networks1">N/A</td>
+                    <td id="networks2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Performance</th>
+                    <td id="performance1">N/A</td>
+                    <td id="performance2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Display</th>
+                    <td id="display1">N/A</td>
+                    <td id="display2">N/A</td>
+                </tr>
+                
+                <tr>
+                    <th>Rear Camera</th>
+                    <td id="rearcamera1">N/A</td>
+                    <td id="rearcamera2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Front Camera</th>
+                    <td id="frontcamera1">N/A</td>
+                    <td id="frontcamera2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Battery</th>
+                    <td id="battery1">N/A</td>
+                    <td id="battery2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Memory</th>
+                    <td id="memory1">N/A</td>
+                    <td id="memory2">N/A</td>
+                </tr>
+                <tr>
+                    <th>ROM</th>
+                    <td id="rom1">N/A</td>
+                    <td id="rom2">N/A</td>
+                </tr>
+                
+                <th>Description</th>
+                <td id="disc1">N/A</td>
+                <td id="disc2">N/A</td>
+            </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+<footer>
+      <img class="footimg"  src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+<a target="_blank" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Linkedin Profile</a>
+
+<h1 class="heading">Welcome to my website</h1>
+<div class="box"><p class="description">Compare Fusion is a one-stop destination for anyone looking to research, compare, and make an informed decision when purchasing an iPhone. <br> By providing comprehensive information, <br> the website aims to simplify the buying process and help users find the iPhone that best suits their needs and budget.</p></div>
+<small>
+    Copyright © design of web page. All Rights Reserved.
+  </small> 
+
+</footer>
+</html>
+
+<script src="src/data.js"></script>
+<script src="main.js"></script>
